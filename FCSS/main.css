@@ -5,6 +5,9 @@ header{
 body{
     margin: 30px;
 }
+*{
+    box-sizing: border-box;
+}
 .logos {
     width: fit-content;
     margin: 0 auto;
@@ -33,7 +36,6 @@ nav {
     height: 80px;
     margin: 1% 10%;
     background: lightblue;
-    box-sizing: border-box;
     padding-top: 5px;
 }
 nav .navbar{
@@ -47,12 +49,21 @@ nav .navbar .navcon{
     padding: 10px;
     margin: 0 20px;
     font-size: 14pt;
-    box-sizing: border-box;
+   
 }
 nav .navcon li{
     display: none;
 }
 section .profile{
-    height: 100px;
-    background: #000;
+    margin: 1% 10%;
+    height: 600px;
+    width: 50%;
+    padding: 30px;
+    background: gray;
+
+}
+section .profile .proimg{
+    margin: 0 auto;
+    width: fit-content;
+    
 }
