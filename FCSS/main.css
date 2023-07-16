@@ -53,6 +53,13 @@ nav .navcon li{
     display: none;
 }
 section .profile{
-    height: 100px;
-    background: #000;
+    width: 40%;
+    height: 500px;
+    margin: 1% 10%;
+    background: lightgray;
+    box-shadow: 3px 3px 10px #000;
+}
+section .profile .proimg{
+    height: 400px;
+    background: url('../Fimg/fox.gif') no-repeat center;
 }
