@@ -1,6 +1,5 @@
 header{
     width: 100%;
-    height: 100px;
 }
 body{
     margin: 30px;
@@ -28,20 +27,23 @@ header .Tlogo {
     font-family: 'Caveat', cursive;
     font-size: 65pt;
 }
+
+/*  */
 nav {
     width: 80%;
     height: 80px;
     margin: 1% 10%;
-    background: lightblue;
+    /* background: lightblue; */
     box-sizing: border-box;
     padding-top: 5px;
 }
 nav .navbar{
     width: fit-content;
     margin: 10px auto;
+
+    display: flex;
 }
 nav .navbar .navcon{
-    display: inline-block;
     border: 1px solid #000;
     border-radius: 10px;
     padding: 10px;
@@ -51,6 +53,14 @@ nav .navbar .navcon{
 }
 nav .navcon li{
     display: none;
+}
+
+/*  */
+section h2{
+    width: fit-content;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 40px auto;
 }
 section .profile{
     width: 40%;
