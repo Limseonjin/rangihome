@@ -6,6 +6,7 @@ header {
   position: fixed;
   width: 100%;
   background: #fff;
+  top:0;
 }
 .logos {
   width: fit-content;
@@ -52,9 +53,12 @@ nav .navbar .navcon {
 nav .navcon li {
   display: none;
 }
+section{
+    margin-top: 215px;
+}
 
-section .profile {
+section .main_back {
   background: url('https://designbase.co.kr/wp-content/uploads/2021/08/gradientreference_main.jpg')
     no-repeat center/cover;
-  height: 10000px;
+  height: 15000px;
 }
